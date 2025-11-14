@@ -42,13 +42,12 @@ A rule-based scoring engine generates a final **PASS / FAIL** verdict.
 ---
 
 ## 📁 Project Directory Structure
-
 ```
 ForgeryShield/
-│── temp_files/                
-│── app.py                     
-│── requirements.txt (Optional if you generate manually)
-│── README.md                  
+│── temp_files/                # Auto-generated cache directory
+│── app.py                     # Main Streamlit application
+│── requirements.txt           (Optional if you generate manually) # Dependency list
+│── README.md                  # Documentation
 ```
 
 ---
@@ -147,7 +146,4 @@ AI & Document Forensics Enthusiast
 Pull requests are welcome!  
 Please open an issue first to discuss improvements.
 
----
 
-## 📜 License
-Licensed under the **MIT License**.
